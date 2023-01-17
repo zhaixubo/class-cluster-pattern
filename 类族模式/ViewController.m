@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "EOCEmployee.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    EOCEmployee*developer = [EOCEmployee employeeWithType:EOCEmployeeTypeDevlopers];
+    [developer doADaysWork];
+    
+    EOCEmployee*prducter = [EOCEmployee employeeWithType:EOCEmployeeTypeProducters];
+    [prducter doADaysWork];
+    
+    EOCEmployee*tester = [EOCEmployee employeeWithType:EOCEmployeeTypeTesters];
+    [tester doADaysWork];
 }
 
 

@@ -17,6 +17,10 @@
 		58556CF029766B0900E9B36B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556CEF29766B0900E9B36B /* ____Tests.m */; };
 		58556CFA29766B0900E9B36B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556CF929766B0900E9B36B /* ____UITests.m */; };
 		58556CFC29766B0900E9B36B /* ____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556CFB29766B0900E9B36B /* ____UITestsLaunchTests.m */; };
+		58556D0D29766B4B00E9B36B /* EOCEmployeeTypeDevloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D0C29766B4B00E9B36B /* EOCEmployeeTypeDevloper.m */; };
+		58556D1029766B5B00E9B36B /* EOCEmployeeTypeProducter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D0F29766B5B00E9B36B /* EOCEmployeeTypeProducter.m */; };
+		58556D1329766B6700E9B36B /* EOCEmployeeTypeTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D1229766B6700E9B36B /* EOCEmployeeTypeTester.m */; };
+		58556D1629766BA800E9B36B /* EOCEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D1529766BA800E9B36B /* EOCEmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		58556CF529766B0900E9B36B /* 类族模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "类族模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58556CF929766B0900E9B36B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		58556CFB29766B0900E9B36B /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		58556D0B29766B4B00E9B36B /* EOCEmployeeTypeDevloper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeTypeDevloper.h; sourceTree = "<group>"; };
+		58556D0C29766B4B00E9B36B /* EOCEmployeeTypeDevloper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeTypeDevloper.m; sourceTree = "<group>"; };
+		58556D0E29766B5B00E9B36B /* EOCEmployeeTypeProducter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeTypeProducter.h; sourceTree = "<group>"; };
+		58556D0F29766B5B00E9B36B /* EOCEmployeeTypeProducter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeTypeProducter.m; sourceTree = "<group>"; };
+		58556D1129766B6700E9B36B /* EOCEmployeeTypeTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeTypeTester.h; sourceTree = "<group>"; };
+		58556D1229766B6700E9B36B /* EOCEmployeeTypeTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeTypeTester.m; sourceTree = "<group>"; };
+		58556D1429766BA800E9B36B /* EOCEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEmployee.h; sourceTree = "<group>"; };
+		58556D1529766BA800E9B36B /* EOCEmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCEmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				58556CD729766B0800E9B36B /* SceneDelegate.m */,
 				58556CD929766B0800E9B36B /* ViewController.h */,
 				58556CDA29766B0800E9B36B /* ViewController.m */,
+				58556D1429766BA800E9B36B /* EOCEmployee.h */,
+				58556D1529766BA800E9B36B /* EOCEmployee.m */,
+				58556D0B29766B4B00E9B36B /* EOCEmployeeTypeDevloper.h */,
+				58556D0C29766B4B00E9B36B /* EOCEmployeeTypeDevloper.m */,
+				58556D0E29766B5B00E9B36B /* EOCEmployeeTypeProducter.h */,
+				58556D0F29766B5B00E9B36B /* EOCEmployeeTypeProducter.m */,
+				58556D1129766B6700E9B36B /* EOCEmployeeTypeTester.h */,
+				58556D1229766B6700E9B36B /* EOCEmployeeTypeTester.m */,
 				58556CDC29766B0800E9B36B /* Main.storyboard */,
 				58556CDF29766B0900E9B36B /* Assets.xcassets */,
 				58556CE129766B0900E9B36B /* LaunchScreen.storyboard */,
@@ -268,8 +288,12 @@
 			files = (
 				58556CDB29766B0800E9B36B /* ViewController.m in Sources */,
 				58556CD529766B0800E9B36B /* AppDelegate.m in Sources */,
+				58556D1329766B6700E9B36B /* EOCEmployeeTypeTester.m in Sources */,
+				58556D1029766B5B00E9B36B /* EOCEmployeeTypeProducter.m in Sources */,
+				58556D0D29766B4B00E9B36B /* EOCEmployeeTypeDevloper.m in Sources */,
 				58556CE629766B0900E9B36B /* main.m in Sources */,
 				58556CD829766B0800E9B36B /* SceneDelegate.m in Sources */,
+				58556D1629766BA800E9B36B /* EOCEmployee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
